@@ -1,0 +1,19 @@
+{
+    "name": "deviser/spreadshelper",
+    "description": "This library is inherited from php spreadsheet, it perform export action like excel, xml, pdf etc.",
+    "type": "library",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.25"
+    },
+    "autoload": {
+        "psr-4": {
+            "Deviser\\Spreadshelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Deviser",
+            "email": "deviserops+packagist@gmail.com"
+        }
+    ]
+}
